@@ -1,6 +1,6 @@
-var SVGIcons = {
-    "Spotify.svg": {
-     draw: function(ctx){
+const canvas = document.querySelector('canvas');
+draw(canvas, canvas.getContext('2d'));
+function draw(canvas, ctx) {
     ctx.save();
     ctx.strokeStyle="rgba(0,0,0,0)";
     ctx.miterLimit=4;
@@ -225,10 +225,6 @@ var SVGIcons = {
     ctx.stroke();
     ctx.restore();
     ctx.restore();
-    }
+}
     
-    }}
-    for(var name in SVGIcons){
-                Q.registerImage(name, SVGIcons[name]);
-            }
 
