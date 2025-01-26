@@ -18,11 +18,6 @@
 	-webkit-animation: slide-top  1s alternate infinite;
 	animation: slide-top  1s alternate infinite;
 }
-/**
- * ----------------------------------------
- * animation opacity_anim
- * ----------------------------------------
- */
 @-webkit-keyframes opacity_anim {
 	0% {
 		opacity: 0;
@@ -40,11 +35,6 @@
 	}
 }
 
-/**
- * ----------------------------------------
- * animation slide-top
- * ----------------------------------------
- */
 @-webkit-keyframes slide-top {
 	0% {
 		-webkit-transform: translateY(0);
