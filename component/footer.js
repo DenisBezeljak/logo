@@ -8,7 +8,7 @@ class Footer extends HTMLElement {
 				<div class="footer-cont">
 					<div class="logo">
 						<a href="./index.html">
-							<img src="/assets/spotifyLogo.png" alt="Spotify Logo" />
+							<img src="assets/spotifyLogo.png" alt="Spotify Logo" />
 						</a>
 					</div>
 					<div class="footer-nav">
